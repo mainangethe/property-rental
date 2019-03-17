@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Property Rental Site</title>
+  </head>
+  <body>
+    <section class="container">
+      <section class="sidebar">
+        <section class="pricing-container">
+          <h2 class="price"> Rental from KES 32,000 <span>per month</span> </h2>
+        </section>
+
+        <section class=form-container>
+          <form class="booking-form" action="index.html" method="post">
+            <span id="person-icon"></span>
+            <label for="full-name">What's your full name?</label>
+            <input type="text" id="full-name" placeholder="Priscillah Nguhi">
+
+            <span id="mobile-icon"></span>
+            <label for="mobile-number">How can we reach you?</label>
+            <input type="text" id="mobile-number" placeholder="0722001002">
+
+
+            <span id="briefcase-icon"></span>
+            <label for="occupation">What is it that you do?</label>
+            <select id="occupation">
+              <option value="Employed">I work for an organization</option>
+              <option value="Student">I am still studying</option>
+              <option value="Self-Employed">I run my own business</option>
+            </select>
+
+            <span id="family-icon"></span>
+            <label for="family-size">How big is your family?</label>
+            <input type="number" id="family-size" value="1" min="1" max="5">
+
+            <span id="envelope-icon"></span>
+            <input type="submit" value="Book Apartment">
+          </form>
+        </section>
+
+        <section class="navigation">
+          <span id="building-icon"></span>
+          <a href="#">About Jalde Heights</a>
+          <span id="mailbox-icon"></span>
+          <a href="#">Contact Us</a>
+        </section>
+
+      </section>
+    </section>
+  </body>
+</html>

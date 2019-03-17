@@ -1,0 +1,75 @@
+/* Reset Margin & Padding */
+* { margin: 0; padding: 0; }
+
+/* Overall / Global Styles */
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto+Condensed:300,400,700');
+
+html {
+  height: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Oswald' , sans-serif; }
+
+/* Container Styling */
+.container {
+  width: 1200px; height: 100%;
+  margin: 0 auto;
+}
+/* Sidebar Styling */
+.sidebar {
+  width: 20%; height: 100%;
+  position: fixed;
+  background-color: hsl(50, 70%, 83%);
+  padding: 50px 15px;
+}
+
+.sidebar span { color: hsl(337, 92%, 31%); }
+
+.sidebar h2 span {
+  display: block;
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+
+.form-container { margin-top: 50px; }
+
+.form-container input, select {
+  display: block;
+  margin-bottom: 15px;
+  width: 75%; height: 2rem;
+  padding: 0 15px;
+}
+
+.form-container select:focus > option:checked {
+  background-color: hsl(337, 92%, 31%);
+  color: hsl(0, 0%, 100%);
+}
+
+.form-container input[type = "number"] { width: 30px; }
+
+.form-container button {
+  background-color: hsl(337, 92%, 31%);
+  color: hsl(0, 0%, 100%);
+  width: 85%;
+  height: 2.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-style: none;
+  border-radius: .5rem;
+}
+
+.form-container button:hover {
+  background-color: hsl(337, 92%, 20%);
+}
+
+.navigation { margin-top: 50px; }
+
+.navigation a {
+  display: block;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: hsl(337, 92%, 31%);
+}
+
+.navigation a:hover { text-decoration: underline; color: hsl(337, 92%, 20%);}
